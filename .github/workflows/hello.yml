@@ -5,12 +5,12 @@ on:
 
 jobs:
 greet: 
- runs-runs: ubuntu-latest
+ runs-on: ubuntu-latest
  steps:
   - name: say hello to users
     run: echo "hello dosto"
   - name: say hi to usename
-    run: excho "hello $user"
+    run: echo "hello $USER"
     
    
   
