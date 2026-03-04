@@ -1,21 +1,15 @@
+---
 Name: Ranjeet
-role: azure consultant
+role: Azure Consultant
 experince: 15
-
 tools:
- - docker
- - kubernetes
- - jenkins
- - monitoring and observing
+  - docker
+  - kubernetes
+  - jenkins
+  - monitoring and observing
 
 ---
-# two ways to write lists in yml
-## block Sytle
-
-tools: 
- - docker
- - kuberneties
-
----
-## Block Style
-tools: [dockers, kubernities]
+tools:
+  - docker
+  - kuberneties
+  
